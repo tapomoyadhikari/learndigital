@@ -7,8 +7,8 @@ import { BookOpen, Laptop, Users, Award, Star } from "lucide-react"
 export default function DigitalLearningInitiative() {
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-900">
-      <header className="px-4 lg:px-6 h-16 flex items-center border-b border-gray-200">
-        <Link className="flex items-center justify-center" href="#">
+<header className="px-4 lg:px-6 h-16 flex items-center justify-between border-b border-gray-200">
+<Link className="flex items-center justify-center" href="#">
           <BookOpen className="h-6 w-6 text-indigo-600" />
           <span className="ml-2 text-lg font-semibold">LearnDigital</span>
         </Link>
@@ -28,7 +28,7 @@ export default function DigitalLearningInitiative() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-indigo-50">
+        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-indigo-50  flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -46,7 +46,7 @@ export default function DigitalLearningInitiative() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32  flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-12 text-indigo-800">Our Features</h2>
             <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
@@ -68,7 +68,7 @@ export default function DigitalLearningInitiative() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-indigo-50">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-indigo-50  flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-12 text-indigo-800">Popular Courses</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -93,7 +93,7 @@ export default function DigitalLearningInitiative() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32  flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-12 text-indigo-800">What Our Students Say</h2>
             <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
@@ -119,7 +119,7 @@ export default function DigitalLearningInitiative() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-indigo-50">
+        <section className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center bg-indigo-50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -141,8 +141,8 @@ export default function DigitalLearningInitiative() {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-200">
-        <p className="text-xs text-gray-500">
+      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center justify-center px-4 md:px-6 border-t border-gray-200">
+      <p className="text-xs text-gray-500">
           © 2024 LearnDigital. All rights reserved.
         </p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
